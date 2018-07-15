@@ -3,10 +3,10 @@ from thrift.transport import THttpClient
 from ttypes import LoginRequest
 import json, requests, LineService
 
-nama = 'PhieCobain'
+nama = 'CHROME_OS'
 Headers = {
-        'User-Agent': "Line/8.3.2",
-        'X-Line-Application': "CHROMEOS\t8.3.2\t"+nama+"\t10.0.0",
+        'User-Agent': "Line/2.1.5",
+        'X-Line-Application': "CHROMEOS\t2.1.5\t"+nama+"\t1",
         "x-lal": "ja-US_US",
     }
 def qrLogin():
