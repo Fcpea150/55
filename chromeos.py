@@ -3,7 +3,7 @@ from thrift.transport import THttpClient
 from ttypes import LoginRequest
 import json, requests, LineService
 
-nama = 'CHROME_OS'
+nama = 'PH-13'
 Headers = {
         'User-Agent': "Line/2.1.5",
         'X-Line-Application': "CHROMEOS\t2.1.5\t"+nama+"\t1",
